@@ -1,0 +1,79 @@
+
+
+.side1{
+    width: 380px;
+    height: 370px;
+    margin-top: 19px;
+    border : 1px solid rgba(0,0,0,.1);
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subTitle{
+    font-size: 18px;
+    font-weight: 100;
+    display: flex;
+    margin-left: 19px;
+    margin-top: 30px;
+}
+
+.medium{
+    display: flex;
+    align-items: center;
+    margin-left: 19px;
+    margin-top: 10px;
+}
+
+.medium h3{
+    font-weight: 100;
+    font-size: 20px;
+    margin: 0;
+}
+
+.iconVerified{
+    color: #3483fa;
+    margin-left: 7px;
+    width: 14px;
+    height: 14px;
+}
+
+.downTitle{
+    display: flex;
+    margin-left: 19px;
+    color: rgba(0,0,0,.55);
+    font-size: 14px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    text-align: start;
+}
+.years{
+    text-align: start;
+    color: rgba(0,0,0,.55);
+    font-size: 14px;
+}
+
+.time{
+    display: flex;
+    margin-left: 19px;
+    margin-top: 17px;
+}
+
+.clock{
+    width: 19px;
+    height: 19px;
+    color: rgba(0,0,0,.9);
+}
+
+.tel{
+    font-size: 14px;
+    display: flex;
+    margin-left: 19px;
+    color: #3483fa;
+    cursor: pointer;
+    margin-top: 20px;
+}

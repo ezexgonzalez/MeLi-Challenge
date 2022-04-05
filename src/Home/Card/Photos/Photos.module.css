@@ -1,0 +1,48 @@
+
+
+.photos{
+    width: 44px;
+    height: 44px;
+    object-fit: scale-down;
+}
+
+.photoBox{
+    outline: 1px solid rgb(190, 190, 190);
+    outline-offset: -1px;
+    border: 2px solid transparent;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    
+}
+
+.photoBox:hover{
+    outline: none;
+    border: 2px solid #3483fa;
+}
+
+.allContainer{
+    display: flex;
+    height: 568px;
+}
+
+.previewContainer{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: center;
+    height: 490px;
+    justify-content: space-around;
+}
+
+.bigPhoto{
+    width: 700px;
+    height: 500px;
+    margin-top: 18px;
+    margin-left: 5px;
+
+}

@@ -1,0 +1,172 @@
+
+
+.card{
+    width: 1200px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+}
+
+.right{
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left{
+    width: 790px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.mainBox{
+    width: 380px;
+    height: 360px;
+    margin-top: 19px;
+    border : 1px solid rgba(0,0,0,.1);
+    border-radius: 8px;
+}
+
+.subTitle{
+    margin-top: 20px;
+    display: flex;
+    font-size: 14px;
+    color: rgba(0,0,0,.55);
+}
+
+.subTitle span{
+    margin-left: 20px;
+}
+
+.title{
+    display: flex;
+    font-size: 14px;
+    margin-top: 5px;
+    height: 27px;
+    align-items: center;
+}
+
+.title h1{
+    margin-left: 20px;
+}
+
+.heartIcon{
+    margin-left: 90px;
+    color: #3483fa;
+    width: 22px;
+    height: 22px;
+}
+
+.verified{
+    margin-top: 15px;
+    display: flex;
+    font-size: 14px;
+    color: rgba(0,0,0,.55);
+    margin-left: 19px;
+    align-items: center;
+}
+
+.verifiedSpan{
+    cursor: pointer;
+    color: #3483fa;
+    margin-left: 5px;
+    transition: 300ms;
+}
+.verifiedSpan:hover{
+    color: #2a67c4;
+}
+
+.verifiedIcon{
+    color: #3483fa;
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+}
+
+.cost{
+    margin-top: 5px;
+    display: flex;
+    font-size: 36px;
+    margin-left: 19px;
+    align-items: center;
+}
+
+.buttonsContainer{
+    margin-top: 22px;
+    display: flex;
+    margin-left: 19px;
+    align-items: center;
+}
+
+.question{
+    width: 160px;
+    height: 48px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: #3483fa;
+    color: white;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.question:hover{
+    background-color: #2a67c4;
+}
+
+.reserve{
+    width: 160px;
+    height: 48px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: rgba(65,137,230,.15);
+    color:#3483fa;
+    cursor: pointer;
+    transition: 300ms;
+    margin-left: 10px;
+}
+.reserve:hover{
+    background-color: rgba(53, 111, 187, 0.178); 
+}
+.pointsContainer{
+    margin-top: 30px;
+    display: flex;
+    font-size: 14px;
+    color: rgba(0,0,0,.55);
+    margin-left: 19px;
+    align-items: center;
+}
+
+.pointsContainer span{
+    margin-left: 8px;
+}
+
+.problem{
+    margin-top: 30px;
+    display: flex;
+    font-size: 14px;
+    color: rgba(0,0,0,.55);
+    margin-left: 19px;
+    align-items: center;
+}
+
+.help{
+    margin-left: 5px;
+    cursor: pointer;
+    color: #3483fa;
+}
+
+.help:hover{
+    color:#2a67c4;
+}
+
+.cupIcon{
+    width: 18px;
+    height: 18px;
+}
