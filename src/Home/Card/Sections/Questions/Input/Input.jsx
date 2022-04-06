@@ -1,6 +1,7 @@
 
 import s from "./Input.module.css";
 import { useState } from "react";
+import Swal from "sweetalert2";
 
 export default function Input({setQuestions}){
 
@@ -11,7 +12,21 @@ export default function Input({setQuestions}){
     }
 
     function addQuestion(){
-        setQuestions(data => [...data,question]);
+        if(question.length > 0){
+            setQuestions(data => [...data,question]);
+            setQuestion("");
+        }else{
+            Swal.fire({
+                text: 'Debes escribir una pregunta!',
+                timer: 3000,
+                timerProgressBar: true,
+                backdrop: null,
+                showConfirmButton: false,
+                width: "300",
+                position: "bottom-start",
+                background: "#fff159"
+              });
+        }
     }
 
     return(
